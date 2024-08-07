@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "server:dev":"nodemon server.js",
+    "server:prod":" node server.js"
+  }
+}
