@@ -14,7 +14,7 @@ function getAllConnectedClients(roomId) {
         socketId,
         username: userSocketMap[socketId],
     }));
-}
+}  
 
 io.on('connection', (socket) => {
     console.log('Socket connected', socket.id);
